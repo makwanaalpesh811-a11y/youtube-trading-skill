@@ -1,6 +1,18 @@
 ---
 name: youtube-trading
+description: "youtube trading"
+version: 1.0.0
+author: Alpesh Makwana
+license: MIT
+platforms: [linux]
+---
+
+name: youtube-trading
 description: "Learn trading from video transcripts; build safe backtests."
+version: 1.0.0
+author: Alpesh Makwana
+license: MIT
+platforms: [linux, macos]
 ---
 Always-on: DELTA_MCP_MODE=disabled; DELTA_API_KEY never; no live orders. Minimal output, no filler. User prefers Hindi/English mixed, 2-point-of-view review (self + work), step-by-step, bounded execution (no infinite loops), 3-part response format (1-Kya mila, 2-Update, 3-Status). Procedure: transcript fetch -> extract rules (entry/exit/SL/TP/duration/delta) -> save -> backtest (delta-exchange-mcp public: get_candles/get_ticker/get_options_chain) -> metrics (CAGR/max-drawdown/Sharpe/win-rate) -> compare -> modify/revert.
 
